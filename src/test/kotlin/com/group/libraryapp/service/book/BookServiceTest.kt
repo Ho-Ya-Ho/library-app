@@ -82,5 +82,4 @@ class BookServiceTest @Autowired constructor(
         assertThat(results).hasSize(1)
         assertThat(results[0].isReturn).isTrue
     }
-
 }
